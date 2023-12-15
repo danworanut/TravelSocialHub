@@ -1,0 +1,87 @@
+.post {
+  margin: 20px auto; 
+  padding: 16px;
+  max-width: 600px; 
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  .postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .authorImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .postDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .postAuthor {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .postTime {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .postImage {
+    max-width: 100%;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .actions button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: cornflowerblue;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .actions button svg {
+    margin-right: 8px;
+    color: cornflowerblue;
+  }
+  
+  .actions button span {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+  }
+  
+  .actions button span .like-icon {
+    margin-right: 4px;
+  }
+  
+  .actions button span .buttonText {
+    color: cornflowerblue;
+  }
+  
+  .actions button:hover {
+    background-color: #f5f5f5;
+    color: #555;
+    border-color: #ccc;
+  }

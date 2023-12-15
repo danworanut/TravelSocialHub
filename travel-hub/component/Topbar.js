@@ -20,7 +20,7 @@ export default function Topbar() {
                         <Link href="/profile">
                            Profile
                         </Link>
-                        <Link href="/messenger">
+                        <Link href="/chat">
                             Chat
                         </Link>
                         <Link href="/logout">

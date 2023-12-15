@@ -1,0 +1,111 @@
+
+.profileContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 2rem;
+  }
+
+ .header {
+    color: cornflowerblue;
+  }
+  
+  .profileHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profilePicture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profileName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: cornflowerblue;
+  }
+  
+  .profileInfo {
+    margin-bottom: 20px;
+  }
+  
+  .socialLinks {
+    margin-top: 20px;
+  }
+  
+  .socialLinks h2 {
+    color: cornflowerblue; 
+  }
+  
+  .socialLinks ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .socialLinks li {
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks a {
+    color: cornflowerblue; /* สีของลิงก์ */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .socialLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  .postContainer {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .postContent {
+    margin-bottom: 10px;
+  }
+  
+  .postImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .postActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .postActions button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: cornflowerblue;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .postActions button:hover {
+    background-color: #f5f5f5;
+    color: #555;
+    border-color: #ccc;
+  }
+  
